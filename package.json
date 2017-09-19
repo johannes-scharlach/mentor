@@ -1,12 +1,17 @@
 {
-  "name": "repoupgrader",
+  "name": "mentor",
   "version": "0.0.0",
   "description": "Upgrades your repos",
   "main": "index.js",
   "author": "Johannes Scharlach <johannes@shareiq.com>",
   "license": "MIT",
+  "bin": "./cli/mentor.js",
   "dependencies": {
     "chalk": "^2.1.0",
+    "cosmiconfig": "^3.0.1",
+    "execa": "^0.8.0",
+    "nodegit": "^0.20.2",
+    "ramda": "^0.24.1"
   },
   "devDependencies": {
     "eslint": "^4.7.0",
