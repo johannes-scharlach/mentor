@@ -7,6 +7,14 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.1.0",
-    "execa": "^0.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier-eslint-cli": "^4.3.2"
   }
 }
