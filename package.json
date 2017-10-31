@@ -11,7 +11,8 @@
     "cosmiconfig": "^3.0.1",
     "execa": "^0.8.0",
     "nodegit": "^0.20.2",
-    "ramda": "^0.24.1"
+    "ramda": "^0.24.1",
+    "yargs": "^9.0.1"
   },
   "devDependencies": {
     "eslint": "^4.7.0",
