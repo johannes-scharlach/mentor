@@ -1,6 +1,6 @@
 {
   "name": "mentor-js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Upgrades your repos",
   "main": "index.js",
   "author": "Johannes Scharlach <johannes@shareiq.com>",
