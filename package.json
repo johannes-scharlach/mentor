@@ -6,6 +6,9 @@
   "author": "Johannes Scharlach <johannes@shareiq.com>",
   "license": "MIT",
   "bin": "./cli/mentor.js",
+  "scripts": {
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  },
   "dependencies": {
     "chalk": "^2.1.0",
     "cosmiconfig": "^3.0.1",
@@ -15,12 +18,15 @@
     "yargs": "^9.0.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^4.2.2",
+    "@commitlint/config-angular": "^4.2.1",
     "eslint": "^4.7.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.14.3",
     "prettier-eslint-cli": "^4.3.2"
   }
 }
