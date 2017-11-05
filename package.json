@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Johannes Scharlach <johannes@shareiq.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johannes-scharlach/mentor.git"
+  },
   "bin": "./cli/mentor.js",
   "scripts": {
     "cm": "commit",
