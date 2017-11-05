@@ -7,6 +7,7 @@
   "license": "MIT",
   "bin": "./cli/mentor.js",
   "scripts": {
+    "cm": "commit",
     "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@commitlint/cli": "^4.2.2",
     "@commitlint/config-angular": "^4.2.1",
+    "@commitlint/prompt-cli": "^4.2.2",
     "eslint": "^4.7.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
