@@ -13,17 +13,17 @@ const { argv } = yargs
   .option('npm-commands', {
     desc: 'Commands that should be executed',
     type: 'array',
-    alias: ['c', 'cmd']
+    alias: ['c', 'cmd'],
   })
   .option('branch-segment', {
     desc:
       'At the end, this command will create a branch named mentor/<branch-segment>',
     default: 'migration',
     type: 'string',
-    alias: 's'
+    alias: 's',
   })
 
-async function run () {
+async function run() {
   try {
     const [repo, config] = await Promise.all([initRepo(), getConfig()])
     const commands = argv.npmCommands || (config ? config.npmCommands : void 0)
